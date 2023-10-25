@@ -95,7 +95,6 @@ background-color: rgb(165, 165, 169);
     gap: 20px;
     background-color: white;
     grid-row: 1/2;
-    border: 2px solid red;
     height: 150vh;
     align-items: center;
 }
@@ -120,7 +119,6 @@ margin-right: 50px;
     background-color: white;
     grid-row: 2/6;
 
-    border: 2px solid red;
     height: 150vh;
     align-items: center;
 }
@@ -132,7 +130,6 @@ margin-right: 50px;
     display: flex;
     flex-direction: column;
     gap: 20px;
-    border: 2px solid red;
     height: 120vh;
     align-items: center;
 }
