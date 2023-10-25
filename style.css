@@ -1,0 +1,333 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav{
+    background-color: black;
+    display: flex;
+    /* justify-content: space-around; */
+    height: 5vh;
+    align-items: center;
+}
+a{
+    color: aliceblue;
+}
+.icons{
+    /* width: 50%; */
+    display: flex;
+    justify-content : start;
+    gap: 50px;
+
+}
+.flex-icons{
+    width: 90%;
+
+}
+/* section 2 */
+
+.section2{
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0%;
+    background-color: white;
+    gap: 20px;
+}
+.bloger-name ,p{
+ 
+    text-align: center;
+}
+
+/* section3 */
+.section3{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+    height: 100vh;
+    background-image: url("https://www.w3schools.com/w3images/jane.jpg");
+}
+.section3 .text-info{
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    text-align: center;
+}
+ .section3 h1{
+    color: white;
+    /* background-color: rgb(178, 178, 224); */
+    /* width: 80%; */
+    font-size: 64px;
+
+}
+.sub-btn{
+    
+    width: 5%;
+    height: 10%;
+    /* background-color: #fff!important; */
+}
+
+button{
+    background-color: #fff;
+
+  color: #050505; /* لون النص */
+  border-radius: 5px; /* تدوير حواف الزر */
+  font-size: 16px; /* حجم النص */
+  padding: 10px 20px; /* الهوامش الداخلية */
+  text-transform: uppercase; /* تصغير النص */  
+}
+/* section 4 */
+.container{
+    width: 100vw;
+display: grid;
+grid-template-columns: auto auto;
+gap: 30px;
+background-color: #e2dfdd;
+}
+.container .item{
+background-color: rgb(165, 165, 169);
+}
+.container  .item1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: white;
+    grid-row: 1/2;
+    border: 2px solid red;
+    height: 150vh;
+    align-items: center;
+}
+.item .img-med{
+    width: 90%;
+}
+.item .p-2{
+    width: 90%;
+    text-align:justify;
+}
+.item1 .like-post{
+margin-right: 50px;    
+    width: 3rem;
+    text-align: center;
+    border:1px solid #050505;
+}
+.container  .item2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    background-color: white;
+    grid-row: 2/6;
+
+    border: 2px solid red;
+    height: 150vh;
+    align-items: center;
+}
+.container  .item3{
+    text-align: center;
+
+    background-color: white;
+    grid-row: 6/10;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 2px solid red;
+    height: 120vh;
+    align-items: center;
+}
+.container .item4{
+    background-color: #050505;
+    text-align: center;
+    color: #fff;
+    width: 40vw;
+    height: 80vh;
+
+}
+.container .item4 img{
+  width: 100%;
+
+}
+.container h1{
+    text-align: center;
+}
+.container  .item5{
+    width: 30vw;
+background-color: #0a0a0a;
+
+}
+.container  .item5 h1{
+    color: white;
+}
+.item5-container{
+    background-color: aliceblue;
+    height: 40vh;
+    display: grid;
+    grid-template-columns: auto ;
+    gap: 15px 10px;
+}
+.item5-info img{
+    width: 10%;
+}
+.item5-info{
+    gap: 15px 10px;
+    display: flex; 
+}
+.item5-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.container .item6{
+    width: 30rem;
+    height: 40vh;
+    background-color: whitesmoke;
+}
+
+.item6 h1{
+    background-color: #050505;
+    color: aliceblue;
+}
+
+.container .item7{
+    width: 30rem;
+    height: 20vh;
+    background-color: azure;
+    
+}
+
+.item7 h1{
+    background-color: #050505;
+    color: aliceblue;
+}
+.item7 .tag1{
+    background-color: #050505;
+    color: aliceblue;
+    width: 65px;
+    text-align: center;
+    border-radius: 1px;
+}
+
+.item7 .tag2{
+    text-align: center;
+    background-color: #96959582;
+    width: 65px;
+}
+.item7 .cont-tags{
+    
+    margin: 5px;
+    gap: 10px;
+    width:20wv ;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.box-ad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #61616145;
+    margin: 5px;
+    height: 30vh;
+    text-align: center;
+    
+}
+
+.container .item8{
+    
+    background-color: azure;
+    width: 30rem;
+    height: fit-content;
+    align-content: center;
+}
+
+.container .item8 h1{
+    background-color: #050505;
+    color: azure;
+    
+}
+.container .item8 .cont-img{
+    
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 40vh;
+    width: 30vw;
+    
+}
+
+.container .item8 img{
+
+    margin: 10px;
+    width:220px ;
+    height:100px ;
+}
+
+
+
+.container .item9{
+    width: 30rem;
+    height: fit-content;
+    background-color: aliceblue;
+}
+
+.container .item9 h1{
+    background-color: #050505;
+    color: aliceblue;
+}
+
+
+.container .item9 a{
+    color: #050505;
+}
+
+.iconss{
+    /* width: 50%; */
+    display: flex;
+    justify-content : start;
+    gap: 5px;
+
+}
+.flex-iconss{
+    width: 90%;
+
+}
+
+
+
+.container .item10{
+    width: 30rem;
+    height: 250px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+}
+
+.div-item10{
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+align-items: center;
+}
+
+.container .item10 input{
+    height: 30px;
+    width: 28rem;
+    border: none;
+}
+
+
+.container .item10 .btn{
+
+    
+    color: aliceblue;
+    height: 30px;
+    border: none;
+    background-color: darkorange;
+}
+.footer{
+    width: 100vw;
+    height: 20vh;
+    background-color: #616161;
+}
