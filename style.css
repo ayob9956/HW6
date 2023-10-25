@@ -148,11 +148,14 @@ background-color: rgb(165, 165, 169);
     align-items: center;
 }
 .container .item4{
+    margin: 10px;
     background-color: #050505;
     text-align: center;
     color: #fff;
-    width: 40vw;
-    height: 80vh;
+    width: 30em;
+    height: 25em;
+    gap: 10px;
+    border-radius: 5px;
 
 }
 .container .item4 img{
@@ -163,7 +166,7 @@ background-color: rgb(165, 165, 169);
     text-align: center;
 }
 .container  .item5{
-    width: 30vw;
+    width: 30em;
 background-color: #0a0a0a;
 
 }
