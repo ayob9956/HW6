@@ -106,10 +106,24 @@ background-color: rgb(165, 165, 169);
     text-align:justify;
 }
 .item1 .like-post{
-margin-right: 50px;    
-    width: 3rem;
+    display: flex;
+    justify-content: space-between;
+    width: 40rem;
     text-align: center;
+}
+.item1 .replis{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 5em;
+    height: 1.8em;
+    background-color: #050505;
+    color: aliceblue;
+}
+.item1 .like{
     border:1px solid #050505;
+
 }
 .container  .item2{
     display: flex;
